@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "sendpackdb_production",
+    "password": "sendpack!2020",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "sendpackdb_production",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "sendpackdb_production",
+    "password": "sendpack!2020",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
