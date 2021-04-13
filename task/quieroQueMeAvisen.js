@@ -1,4 +1,4 @@
-const { InscripcionesCursos } = require('../db')
+const { InscripcionesCursos, Curso, Categoria } = require('../db')
 const cursos = require('./cursosAndCategias')
 const nodemailer = require("nodemailer");
 
@@ -47,7 +47,14 @@ const checkInscripcionesCursos = async () => {
             estado: 1
         }
     })
-    //console.log(`===========================  2  =============================`)
+
+    /* const cursos = await Categoria.findAll({
+        include: [{
+            model: Curso,
+        }],
+    }) */
+
+    
     if (inscriptos && inscriptos.length > 0) {
         for (const e of inscriptos) {
             for (const list of cursos) {

@@ -18,7 +18,7 @@ app.use(bodyParser.json())
 const cors = require("cors");
 
 var corsOptions = {
-    origin: ["https://sendpack.com.ar:5000/", "https://200.10.96.104:5000/"]
+    origin: ["http://localhost:5000/", "http://localhost:3000/"]
 };
 
 app.use(cors(corsOptions));

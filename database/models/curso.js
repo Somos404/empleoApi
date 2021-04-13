@@ -39,7 +39,7 @@ module.exports = (sequelize, DataTypes) => {
       },
       get() {
         try {
-          return JSON.parse(this.getDataValue('requerimientos'))
+          return this.getDataValue('requerimientos')
         } catch (error) {
           return []
         }

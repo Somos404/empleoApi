@@ -19,7 +19,7 @@ router.get('/', async (req, res) => {
 	})
     res.status(200).send({
 		res: response,
-		ok:cursos
+		cursos:cursos
 	});
 })
 

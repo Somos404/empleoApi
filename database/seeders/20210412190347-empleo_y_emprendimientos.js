@@ -10,7 +10,7 @@ module.exports = {
       for (const curso of list.cursos) {
         //CategoriumId clave foraanea
             
-        Curso.create({
+        await Curso.create({
           CategoriumId: list.categoria === 'Empleo y emprendimientos'?1:list.categoria === 'Informatorio'?2:3,
           nombre: curso.nombre,
           imgUrl: curso.imgUrl,
