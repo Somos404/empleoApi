@@ -8,7 +8,7 @@ module.exports = (sequelize, DataTypes) => {
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
      * The `models/index` file will call this method automatically.
-     */
+    */
     static associate(models) {
       Curso.belongsTo(models.Categoria)
     }
@@ -17,7 +17,87 @@ module.exports = (sequelize, DataTypes) => {
     nombre: DataTypes.STRING,
     imgUrl: DataTypes.STRING,
     horasSemanales: DataTypes.INTEGER,
+    UrlToRedirect: DataTypes.STRING,
     tipo: DataTypes.STRING,
+    descripcionLarga: {
+      type: DataTypes.STRING,
+      set(value) {
+        this.setDataValue('descripcionLarga', JSON.stringify(value));
+      },
+      get() {
+        try {
+          return JSON.parse(this.getDataValue('descripcionLarga'))
+        } catch (error) {
+          return []
+        }
+      },
+    },  
+    requerimientos:  {
+      type: DataTypes.STRING,
+      set(value) {
+        this.setDataValue('requerimientos', JSON.stringify(value));
+      },
+      get() {
+        try {
+          return JSON.parse(this.getDataValue('requerimientos'))
+        } catch (error) {
+          return []
+        }
+      },
+    },  
+    especificaciones:  {
+      type: DataTypes.STRING,
+      set(value) {
+        this.setDataValue('especificaciones', JSON.stringify(value));
+      },
+      get() {
+        try {
+          return JSON.parse(this.getDataValue('especificaciones'))
+        } catch (error) {
+          return []
+        }
+      },
+    },  
+    contenidoTitulo:  {
+      type: DataTypes.STRING,
+      set(value) {
+        this.setDataValue('contenidoTitulo', JSON.stringify(value));
+      },
+      get() {
+        try {
+          return JSON.parse(this.getDataValue('contenidoTitulo'))
+        } catch (error) {
+          return []
+        }
+      },
+    },  
+    contenido:  {
+      type: DataTypes.STRING,
+      set(value) {
+        this.setDataValue('contenido', JSON.stringify(value));
+      },
+      get() {
+        try {
+          return JSON.parse(this.getDataValue('contenido'))
+        } catch (error) {
+          return []
+        }
+      },
+    },  
+    fechaInscrpcion:  {
+      type: DataTypes.STRING,
+      set(value) {
+        this.setDataValue('fechaInscrpcion', JSON.stringify(value));
+      },
+      get() {
+        try {
+          return JSON.parse(this.getDataValue('fechaInscrpcion'))
+        } catch (error) {
+          return []
+        }
+      },
+    },
+
   }, {
     sequelize,
     modelName: 'Curso',
