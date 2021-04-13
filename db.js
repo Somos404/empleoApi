@@ -2,7 +2,9 @@ const { sequelize } = require("./database/models");
 const {
     Categoria,
     Curso,
-    InscripcionesCursos
+    InscripcionesCursos,
+    DescripcionLarga,
+    Requerimientos,
 } = sequelize.models
 
 sequelize.sync({ force: false })
@@ -13,5 +15,7 @@ sequelize.sync({ force: false })
 module.exports = {
     Categoria,
     Curso,
-    InscripcionesCursos
+    InscripcionesCursos,
+    DescripcionLarga,
+    Requerimientos,
 }

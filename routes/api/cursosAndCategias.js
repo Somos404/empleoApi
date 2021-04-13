@@ -1,5 +1,6 @@
 const router = require('express').Router()
-const { Categoria, Curso } = require('../../db')
+const { Categoria, Curso, DescripcionLarga, Requerimientos } = require('../../db')
+const cursos = require('../../task/cursosAndCategias')
 
 router.use(function(req, res, next) {
   res.header(
@@ -12,13 +13,13 @@ router.use(function(req, res, next) {
 router.get('/', async (req, res) => {
 
 	const response = await Categoria.findAll({
-		include: [
-			{ model: Curso },
-		]
+		include: [{
+			model: Curso, 
+		}]
 	})
     res.status(200).send({
 		res: response,
-		ok:false
+		ok:cursos
 	});
 })
 
