@@ -15,6 +15,13 @@ let sequelize;
   sequelize = new Sequelize(config.database, config.username, config.password, config);
 } */
 
+/* const sequelize = new Sequelize('empleochaco', 'empleo_chaco', 'empleo@2021!', {
+  host: '127.0.0.1',
+  port: 3306,
+  dialect: 'mysql'
+}); */
+
+
 sequelize = new Sequelize('empleochaco', 'root', '', {
     host: '127.0.0.1',
     port: 3306,

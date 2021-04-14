@@ -1,5 +1,5 @@
 const { InscripcionesCursos, Curso, Categoria } = require('../db')
-const cursos = require('./cursosAndCategias')
+//const cursos = require('./cursosAndCategias')
 const nodemailer = require("nodemailer");
 
 const smtpTransport = nodemailer.createTransport({
@@ -48,17 +48,17 @@ const checkInscripcionesCursos = async () => {
         }
     })
 
-    /* const cursos = await Categoria.findAll({
-        include: [{
-            model: Curso,
-        }],
-    }) */
+    const cursos = await Categoria.findAll({
+		include: [{
+			model: Curso, 
+		}]
+	})
 
     
     if (inscriptos && inscriptos.length > 0) {
         for (const e of inscriptos) {
             for (const list of cursos) {
-                let curso = list.cursos.find(curso => curso.nombre === e.dataValues.nombreCurso)
+                let curso = list.Cursos.find(curso => curso.nombre === e.dataValues.nombreCurso)
                 //si existe curso y la fecha de inscripcion esta en curso
                 let feachas = curso?checkDate(curso.fechaInscrpcion):false
                 if (curso && feachas.state) {
