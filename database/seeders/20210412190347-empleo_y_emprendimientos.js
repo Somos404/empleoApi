@@ -1,5 +1,5 @@
 'use strict';
-const cursos = require('../../task/cursosAndCategias')
+const cursos = require('./../../task/cursosAndCategias')
 const { Curso } = require('../../db')
 const { DescripcionLarga } = require('../../db')
 const { Requerimientos } = require('../../db')

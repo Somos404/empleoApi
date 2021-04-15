@@ -20,7 +20,7 @@ module.exports = (sequelize, DataTypes) => {
     UrlToRedirect: DataTypes.STRING,
     tipo: DataTypes.STRING,
     descripcionLarga: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       set(value) {
         this.setDataValue('descripcionLarga', JSON.stringify(value));
       },
@@ -33,7 +33,7 @@ module.exports = (sequelize, DataTypes) => {
       },
     },  
     requerimientos:  {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       set(value) {
         this.setDataValue('requerimientos', JSON.stringify(value));
       },
@@ -46,7 +46,7 @@ module.exports = (sequelize, DataTypes) => {
       },
     },  
     especificaciones:  {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       set(value) {
         this.setDataValue('especificaciones', JSON.stringify(value));
       },
@@ -59,7 +59,7 @@ module.exports = (sequelize, DataTypes) => {
       },
     },  
     contenidoTitulo:  {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       set(value) {
         this.setDataValue('contenidoTitulo', JSON.stringify(value));
       },
@@ -72,7 +72,7 @@ module.exports = (sequelize, DataTypes) => {
       },
     },  
     contenido:  {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       set(value) {
         this.setDataValue('contenido', JSON.stringify(value));
       },
@@ -85,7 +85,7 @@ module.exports = (sequelize, DataTypes) => {
       },
     },  
     fechaInscrpcion:  {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       set(value) {
         this.setDataValue('fechaInscrpcion', JSON.stringify(value));
       },
