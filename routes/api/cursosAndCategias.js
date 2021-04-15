@@ -16,6 +16,7 @@ router.get('/', async (req, res) => {
 		}]
 	})
     res.status(200).send({
+		ok: true,
 		res: response,
 	});
 })
