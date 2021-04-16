@@ -61,7 +61,7 @@ const checkInscripcionesCursos = async () => {
                 let curso = list.Cursos.find(curso => curso.nombre === e.dataValues.nombreCurso)
                 //si existe curso y la fecha de inscripcion esta en curso
                 let feachas = curso?checkDate(curso.fechaInscrpcion):false
-                if (curso && feachas.state) {
+                if (curso && feachas && curso.active) {
                     //cambio el estado = 1 para que no lo busque mas y mando mail
                     let res = await e.update({ 
                         estado: 0 

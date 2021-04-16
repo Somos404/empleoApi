@@ -3,8 +3,8 @@ const {
     Categoria,
     Curso,
     InscripcionesCursos,
-    DescripcionLarga,
-    Requerimientos,
+    Municipios
+    
 } = sequelize.models
 
 sequelize.sync({ force: false })
@@ -16,6 +16,5 @@ module.exports = {
     Categoria,
     Curso,
     InscripcionesCursos,
-    DescripcionLarga,
-    Requerimientos,
+    Municipios
 }
