@@ -161,7 +161,7 @@ module.exports = [
       },
       {
         tipo: 'Semana',
-        nombre: "Introducición al desarrollo de videojuegos",
+        nombre: "Introducción al desarrollo de videojuegos",
         descripcionLarga:[
           "En este curso te vamos a mostrar muchos elementos que tienen que ver con los videojuegos: su diseño, su desarrollo y su producción. Vamos a crear personajes y enemigos, ítems a consumir, plataformas, trampas, portales, sistemas de partículas, animaciones, power ups; vamos a manejar físicas y muchas cosas más para iniciarse en este mundo, a través del motor de desarrollo de videojuegos llamado GODOT.",
         ],
@@ -286,21 +286,23 @@ module.exports = [
           "Tener acceso a una computadora con el programa Microsoft Excel instalado.",
         ],
         especificaciones: [
-          "4 SEMANAS DE DURACIÓN",
-          "3 HORAS SEMANALES",
+          "2 SEMANAS DE DURACIÓN",
+          "5 HORAS SEMANALES",
           "GRATUITO",
           "CERTIFICADO",
         ],
         contenidoTitulo: [],
         contenido: [
-          "En esta semana conoceremos el Programa Microsoft Excel: ¿Qué es y para qué sirve? ¿Cuáles son sus componentes principales? Aprenderemos cómo crear y trabajar con archivos, desplazarnos en hojas y libros, y configurar archivos para imprimir.",
-          "En esta semana conoceremos los componentes que estructuran y dan forma a la hoja de Excel, aprenderemos a utilizar distintos comandos, insertar y eliminar filas y modificar sus tamaños; también veremos cómo copiar celdas y autorrellenar.",
-          "En esta semana aprenderemos cuáles son los distintos formatos de celdas: numéricos y de fuente, también podremos configurar el contenido y utilizar estilos predefinidos que el programa ofrece.",
-          "En esta semana veremos cómo utilizar operadores y funciones, lograremos construir fórmulas, y aprenderemos a sumar, multiplicar, dividir, calcular promedios, contar, identificar máximos y mínimos automáticamente, y redondear. También podremos utilizar funciones de texto y de fecha y hora.",
+          `En esta semana conoceremos el Programa Microsoft Excel: ¿Qué es y para qué sirve? ¿Cuáles son sus componentes principales? Aprenderemos cómo crear y trabajar con archivos, desplazarnos en hojas y libros y configurar archivos para imprimir.
+          También conoceremos los componentes que estructuran y dan forma a la hoja de Excel, aprenderemos a utilizar distintos comandos, insertar y eliminar filas y modificar sus tamaños; también veremos cómo copiar en celdas y autorrellenar.
+          `,
+          `En esta semana aprenderemos cuáles son los distintos formatos de celdas: numéricos y de fuente, también podremos configurar el contenido y utilizar estilos predefinidos que el programa ofrece.
+          Además, veremos cómo utilizar operadores y funciones, lograremos construir fórmulas, y aprenderemos a sumar, multiplicar, dividir, calcular promedios, contar, identificar máximos y mínimos automáticamente, y redondear. También podremos utilizar funciones de texto y de fecha y hora
+          `
         ],
         UrlToRedirect:
           "https://capacitaciones.chaco.gob.ar/course/view.php?id=11",
-        horasSemanales: 3,
+        horasSemanales: 5,
         fechaInscrpcion: [],
       },
       {
@@ -336,24 +338,26 @@ module.exports = [
         tipo: 'Semana',
         nombre: "Word Inicial",
         descripcionLarga:[
-          "En este curso te vamos a mostrar las cuestiones más importantes para que puedas escribir en la computadora notas, cartas, informes, tu currículum vitae, entre otros. Durante cuatro semanas te iremos mostrando las funcionalidades básicas de Word, aprendiendo a trabajar con él y entendiendo su navegación. Vas a incorporar nociones básicas sobre cómo crear, modificar, configurar y corregir un documento, para tenerlo listo y compartir el trabajo finalizado por medios electrónicos, imprimirlo o simplemente guardarlo.",
+          "En este curso te vamos a mostrar las cuestiones más importantes para que puedas escribir en la computadora notas, cartas, informes, tu currículum vitae, entre otros. Durante dos semanas te iremos mostrando las funcionalidades básicas de Word, aprendiendo a trabajar con él y entendiendo su navegación. Vas a incorporar nociones básicas sobre cómo crear, modificar, configurar y corregir un documento, para tenerlo listo y compartir el trabajo finalizado por medios electrónicos, imprimirlo o simplemente guardarlo.",
         ],
         imgUrl: "WOrdInicial",
         requerimientos: [
           "Tener acceso a una computadora con el programa Microsoft Word instalado.",
         ],
         especificaciones: [
-          "4 SEMANAS DE DURACIÓN",
-          "3 HORAS SEMANALES",
+          "2 SEMANAS DE DURACIÓN",
+          "5 HORAS SEMANALES",
           "GRATUITO",
           "CERTIFICADO",
         ],
         contenidoTitulo: [],
         contenido: [
-          "En esta semana conocerás a Word y sus herramientas. Aprenderás a iniciar el programa, sus barras y menús, a deshacer y rehacer acciones, configurar la fuente, los párrafos y las sangrías. También verás cómo crear tablas y modificar sus bordes y sombreados, cómo utilizar columnas. Por último, aprenderás cómo aplicar la revisión ortográfica, ver la vista previa a la impresión y guardar el archivo en diferentes formatos, por ejemplo en PDF.",
-          "En esta semana aprenderás cómo utilizar Imágenes de archivo o prediseñadas, y plantillas para armar distintos tipos de documentos, como currículums. También verás cómo insertar gráficos y redimensionar o recortar imágenes y ajustarlas al texto.",
-          "En esta semana trabajarás con tablas y cómo configurar los documentos. Aprenderás a poner encabezados o pies de páginas y a insertar portadas. También verás cómo dibujar tablas, diseñarlas y configurarlas.",
-          "En esta semana aprenderás a utilizar la función de corrección de ortografía y gramática e impresión de documentos, cómo configurar las páginas y definir su orientación.",
+         `En esta semana conocerás a Word y sus herramientas. Aprenderás a iniciar el programa, sus barras y menús, a deshacer y rehacer acciones, configurar la fuente, los párrafos y las sangrías. Verás cómo crear tablas y modificar sus bordes y sombreados, cómo utilizar columnas. También aprenderás cómo aplicar la revisión ortográfica, ver la vista previa a la impresión y guardar el archivo en diferentes formatos, por ejemplo en PDF.
+         Asimismo, aprenderás a utilizar imágenes de archivo o prediseñadas, y plantillas para armar distintos tipos de documentos, como currículums. También verás cómo insertar gráficos y redimensionar o recortar imágenes y ajustarlas al texto.
+         `,
+         `En esta semana trabajarás con tablas y cómo configurar los documentos. Aprenderás a poner encabezados o pies de páginas y a insertar portadas. También verás cómo dibujar tablas, diseñarlas y configurarlas.
+         Además, aprenderás a utilizar la función de corrección de ortografía y gramática e impresión de documentos, cómo configurar las páginas y definir su orientación
+         `
         ],
         UrlToRedirect:
           "https://capacitaciones.chaco.gob.ar/course/view.php?id=9",
@@ -388,6 +392,26 @@ module.exports = [
         horasSemanales: 3,
         fechaInscrpcion: [],
       },
+      {
+        tipo: 'Módulo',
+        nombre: "Dactilografía",
+        descripcionLarga:[
+          `En este curso aprenderás a familiarizarte con el hábito de escribir en el teclado utilizando todos los dedos de las manos, incrementando tu velocidad y precisión de escritura en computadora. Aprenderás a escribir sin mirar el teclado, ejercitando los dedos, utilizando adecuadamente las teclas y los comandos de puntuación, mayúsculas y minúsculas, signos, entre otros.`
+        ],
+        imgUrl: "dactilografia",
+        requerimientos: [],
+        especificaciones: [
+        ],
+        contenidoTitulo: [],
+        contenido: [
+          `Conocer el teclado. Aprender a sentarse. Digitación. Las teclas de cada dedo. Utilización de “teclas-guía”. Entrenamiento con frases cortas. Puntuación, mayúsculas, márgenes, tabulado, sangría, signos y números.`,
+          `Entrenamiento con textos largos. Entrenamiento de velocidad y precisión.`
+        ],
+        UrlToRedirect:
+          "https://capacitaciones.chaco.gob.ar/course/view.php?id=10",
+        horasSemanales: 3,
+        fechaInscrpcion: [],
+      },
     ]
   },
   /** -----------INFORMATORIO------------ */
@@ -395,121 +419,125 @@ module.exports = [
     categoria: 'Informatorio',
     imgUrl: 'Informatorio',
     cursos:[
-        {
-          tipo: 'Eje',
-          nombre: 'Talleres para emprender en TICs',
-          descripcionLarga:[
-            `Adquirirás herramientas que te permitan iniciar un emprendimiento vinculado a las TICs, y podrás acceder a ﬁnanciamiento para su puesta en marcha al ﬁnalizar el ciclo. Aprenderás a transformar tu idea en proyecto, a administración un emprendimiento, y a desarrollar un plan de negocios.
-            Este curso es la etapa de 4 del trayecto formativo del "Informatorio", un programa del Gobierno del Chaco junto a empresas del Polo IT Chaco, la UTN-FRRe y la UNCAUS, creado para que chaqueñas y chaqueños tengan más y mejores oportunidades de incorporarse a la economía del conocimiento, especíﬁcamente en el sector de Software y Servicios Informáticos a través de la formación en programación.
-            Para realizarlo es requisito haber aprobado la etapa 3 del Informatorio: el curso de "Especialización en Tecnologías de Desarrollo".`,
-          
-          ],
-          imgUrl: 'TalleresparaemprenderenTICs',
-          requerimientos: 
-            [
-              `haber aprobado la etapa 3 del Informatorio: el curso de "Especialización en Tecnologías de Desarrollo".`,
-            ],
-          especificaciones: [],
-          contenidoTitulo: [],
-          contenido: [],
-          UrlToRedirect: 'https://capacitaciones.chaco.gob.ar/mod/forum/view.php?id=717',
-          horasSemanales: 0,
-          fechaInscrpcion: []
-        },
-        {
-          tipo: 'Eje',
-          nombre: 'Especialización en tecnologías de desarrollo',
-          descripcionLarga:[
-            'Podrás continuar con tu perfeccionamiento en lenguajes especíﬁcos, y orientar tu formación hacia los perﬁles laborales requeridos por las empresas locales. Profundizarás en desarrollo web con JAVA, y podrás elegir entre herramientas de testing para desarrollos o front end con React JS. Este curso es la etapa de 3 del trayecto formativo del "Informatorio", un programa del Gobierno del Chaco junto a empresas del Polo IT Chaco, la UTN-FRRe y la UNCAUS, creado para que chaqueñas y chaqueños tengan más y mejores oportunidades de incorporarse a la economía del conocimiento, especíﬁcamente en el sector de Software y Servicios Informáticos a través de la formación en programación. Para realizarlo es requisito haber aprobado la etapa 2 del Informatorio: el curso de "Programación y Desarrollo Web".',
-          ],
-          imgUrl: 'Especializaciónentecnologíasdedesarrollo',
-          requerimientos: 
+      {
+        tipo: 'Eje',
+        nombre: 'Introducción a la Programación',
+        descrip_card:'Para que sin necesidad de poseer conocimientos previos en programación, puedas adentrarte en ese mundo de manera didáctica y entretenida, iniciando tu camino en el aprendizaje de sus lenguajes, en poco tiempo y de manera intensiva.',
+        descripcionLarga:[
+          'En este curso conocerás de qué se trata el mundo de la programación y te iniciarás en sus lenguajes. Durante un mes te proporcionaremos las bases mínimas necesarias para tener una primera noción de  las implicancias del desarrollo de software y sus principales componentes. Este curso es la etapa de 1 del trayecto formativo del "Informatorio", un programa del Gobierno del Chaco junto a empresas del Polo IT Chaco, la UTN-FRRe y la UNCAUS, creado para que chaqueñas y chaqueños tengan más y mejores oportunidades de incorporarse a la economía del conocimiento, especíﬁcamente en el sector de Software y Servicios Informáticos a través de la formación en programación. Para este curso necesitarás un dispositivo con acceso a internet, y no se requieren conocimientos previos.',
+        ],
+        imgUrl: 'IntroducciónalaProgramación',
+        requerimientos: 
+        [
+          `Un dispositivo con acceso a internet, y no se requieren conocimientos previos.`
+        ],
+        especificaciones: 
+        [
+          '4 SEMANAS DE DURACIÓN',
+          '12 HORAS SEMANALES',
+          'GRATUITO', 'CERTIFICADO'
+        ],
+        contenidoTitulo: [
+          `Fundamentos de Programación`,
+          `Programación Imperativa`
+        ],
+        contenido: 
+        [
+          'Conceptos iniciales. Primeros programas. Procedimientos y prácticas. Estructuras repetitivas simples. Expresiones. Estructuras condicionales. Funciones. Prácticas integradoras. Estructuras repetitivas condicionales.',
+          'Funciones y tipos de datos. Variables y procedimientos. Lógica Booleana. Listas. Registros.',
+        ],
+        UrlToRedirect: 'https://capacitaciones.chaco.gob.ar/mod/forum/view.php?id=714',
+        horasSemanales: 12,
+        fechaInscrpcion: []
+      },
+      {
+        tipo: 'Eje',
+        nombre: 'Programación y Desarrollo Web',
+        descrip_card:'Podrás profundizar en herramientas básicas para desarrollar aplicaciones web con bases de datos, y adquirir conocimientos que te permitan seguir construyendo tu perfil profesional para el sector Software y Servicios Informáticos.',
+        descripcionLarga:[
+          'Podrás profundizar en herramientas básicas para desarrollar aplicaciones web con bases de datos, y adquirir conocimientos que te permitan seguir construyendo tu perﬁl profesional para el sector Software y Servicios Informáticos. Profundizarás en programación con Python y Django, y en bases de datos con SQL Server y MySQL. Este curso es la etapa de 2 del trayecto formativo del "Informatorio", un programa del Gobierno del Chaco junto a empresas del Polo IT Chaco, la UTN-FRRe y la UNCAUS, creado para que chaqueñas y chaqueños tengan más y mejores oportunidades de incorporarse a la economía del conocimiento, especíﬁcamente en el sector de Software y Servicios Informáticos a través de la formación en programación. Para realizarlo es requisito haber aprobado la etapa 1 del Informatorio: el curso de "Introducción a la Programación".',
+        ],
+        imgUrl: 'ProgramayDesarrolloWeb',
+        requerimientos: 
+        [
+          `Para realizarlo es requisito haber aprobado la etapa 1 del Informatorio: el curso de "Introducción a la Programación".`
+        ],
+        especificaciones: 
+        [
+          '4 MESES DE DURACIÓN',
+          '10 HORAS SEMANALES',
+          'GRATUITO', 
+          'CERTIFICADO'
+        ],
+        contenidoTitulo: [
+          `Programación Web`,
+          `Bases de Datos`
+        ],
+        contenido: 
+        [
+          'Introducción a Python. Variables y tipos de datos. Estructuras de control. Funciones. Listas. Tuplas. Diccionarios. Programación orientada a objetos. Versionado. Framework Django.',
+          'Introducción a las bases de datos. Modelo entidad-relación (MER). Tablas. SQL Server. MySQL. Ejemplificaciones y prácticas.',
+        ],
+        UrlToRedirect: 'https://capacitaciones.chaco.gob.ar/mod/forum/view.php?id=715',
+        horasSemanales: 10,
+        fechaInscrpcion: []
+      },
+      {
+        tipo: 'Eje',
+        nombre: 'Especialización en tecnologías de desarrollo',
+        descrip_card:'Podrás continuar con tu perfeccionamiento en lenguajes específicos, y orientar tu formación hacia los perfiles laborales requeridos por las empresas locales.',
+        descripcionLarga:[
+          'Podrás continuar con tu perfeccionamiento en lenguajes especíﬁcos, y orientar tu formación hacia los perﬁles laborales requeridos por las empresas locales. Profundizarás en desarrollo web con JAVA, y podrás elegir entre herramientas de testing para desarrollos o front end con React JS. Este curso es la etapa de 3 del trayecto formativo del "Informatorio", un programa del Gobierno del Chaco junto a empresas del Polo IT Chaco, la UTN-FRRe y la UNCAUS, creado para que chaqueñas y chaqueños tengan más y mejores oportunidades de incorporarse a la economía del conocimiento, especíﬁcamente en el sector de Software y Servicios Informáticos a través de la formación en programación. Para realizarlo es requisito haber aprobado la etapa 2 del Informatorio: el curso de "Programación y Desarrollo Web".',
+        ],
+        imgUrl: 'Especializaciónentecnologíasdedesarrollo',
+        requerimientos: 
+        [
+          `haber aprobado la etapa 2 del Informatorio: el curso de "Programación y Desarrollo Web".`
+        ],
+        especificaciones: 
+        [
+          '4 MESES DE DURACIÓN',
+          '10 HORAS SEMANALES',
+          'GRATUITO', 
+          'CERTIFICADO'
+        ],
+        contenidoTitulo: [
+          `Desarrollo Web con JAVA`,
+          `Front end con React JS`,
+          `Herramientas de Testing para desarrollo`
+        ],
+        contenido: 
+        [
+          'Introducción al desarrollo web con JAVA. Versionado. Programación orientada a objetos. Colecciones y Map. Errores y excepciones. Funciones. Spring Framework. Spring Boot. Manejo de Errores. Validaciones. SQL en Proyectos JAVA. HTML y CSS. Spring Data. Spring Security. REST. JSON. Spring REST.',
+          'Introducción a React JS. Desarrollar con React JS. Componentes. Crear paginas y layouts. React Router. Mejorar la UI utilizando Layouts y React Fragment. Ciclo de vida de los componentes. API y llamadas. Manejo de datos vía API. UI Components y Container Components. Portales. Ventana modals. Hooks. Search Filter. Proyecto Integrado.',
+          'Introducción. Calidad en el contexto del desarrollo de software. Principios del testing. Niveles y tipos de testing. ruebas relacionadas a cambios: re-testing y regression testing. Caso de prueba. Testing Caja Negra. Testing Caja Blanca. Pruebas basadas en la experiencia. Técnicas: predicción de errores, “fault attack”, testing exploratorio. Ciclo de vida del Bug. Reporte de seguimientos. Testing unitario. TDD (Test Driven Development)',
+        ],
+        UrlToRedirect: 'https://capacitaciones.chaco.gob.ar/mod/forum/view.php?id=716',
+        horasSemanales: 10,
+        fechaInscrpcion: []
+      },
+      {
+        tipo: 'Eje',
+        nombre: 'Talleres para emprender en TICs',
+        descrip_card:'Adquirirás herramientas que te permitan iniciar un emprendimiento vinculado a las TICs, y podrás acceder a financiamiento para su puesta en marcha al finalizar el ciclo.',
+        descripcionLarga:[
+          `Adquirirás herramientas que te permitan iniciar un emprendimiento vinculado a las TICs, y podrás acceder a ﬁnanciamiento para su puesta en marcha al ﬁnalizar el ciclo. Aprenderás a transformar tu idea en proyecto, a administración un emprendimiento, y a desarrollar un plan de negocios.
+          Este curso es la etapa de 4 del trayecto formativo del "Informatorio", un programa del Gobierno del Chaco junto a empresas del Polo IT Chaco, la UTN-FRRe y la UNCAUS, creado para que chaqueñas y chaqueños tengan más y mejores oportunidades de incorporarse a la economía del conocimiento, especíﬁcamente en el sector de Software y Servicios Informáticos a través de la formación en programación.
+          Para realizarlo es requisito haber aprobado la etapa 3 del Informatorio: el curso de "Especialización en Tecnologías de Desarrollo".`,
+        
+        ],
+        imgUrl: 'TalleresparaemprenderenTICs',
+        requerimientos: 
           [
-            `haber aprobado la etapa 2 del Informatorio: el curso de "Programación y Desarrollo Web".`
+            `haber aprobado la etapa 3 del Informatorio: el curso de "Especialización en Tecnologías de Desarrollo".`,
           ],
-          especificaciones: 
-          [
-            '4 MESES DE DURACIÓN',
-            '10 HORAS SEMANALES',
-            'GRATUITO', 
-            'CERTIFICADO'
-          ],
-          contenidoTitulo: [
-            `Desarrollo Web con JAVA`,
-            `Front end con React JS`,
-            `Herramientas de Testing para desarrollo`
-          ],
-          contenido: 
-          [
-            'Introducción al desarrollo web con JAVA. Versionado. Programación orientada a objetos. Colecciones y Map. Errores y excepciones. Funciones. Spring Framework. Spring Boot. Manejo de Errores. Validaciones. SQL en Proyectos JAVA. HTML y CSS. Spring Data. Spring Security. REST. JSON. Spring REST.',
-            'Introducción a React JS. Desarrollar con React JS. Componentes. Crear paginas y layouts. React Router. Mejorar la UI utilizando Layouts y React Fragment. Ciclo de vida de los componentes. API y llamadas. Manejo de datos vía API. UI Components y Container Components. Portales. Ventana modals. Hooks. Search Filter. Proyecto Integrado.',
-            'Introducción. Calidad en el contexto del desarrollo de software. Principios del testing. Niveles y tipos de testing. ruebas relacionadas a cambios: re-testing y regression testing. Caso de prueba. Testing Caja Negra. Testing Caja Blanca. Pruebas basadas en la experiencia. Técnicas: predicción de errores, “fault attack”, testing exploratorio. Ciclo de vida del Bug. Reporte de seguimientos. Testing unitario. TDD (Test Driven Development)',
-          ],
-          UrlToRedirect: 'https://capacitaciones.chaco.gob.ar/mod/forum/view.php?id=716',
-          horasSemanales: 10,
-          fechaInscrpcion: []
-        },
-        {
-          tipo: 'Eje',
-          nombre: 'Programación y Desarrollo Web',
-          descripcionLarga:[
-            'Podrás profundizar en herramientas básicas para desarrollar aplicaciones web con bases de datos, y adquirir conocimientos que te permitan seguir construyendo tu perﬁl profesional para el sector Software y Servicios Informáticos. Profundizarás en programación con Python y Django, y en bases de datos con SQL Server y MySQL. Este curso es la etapa de 2 del trayecto formativo del "Informatorio", un programa del Gobierno del Chaco junto a empresas del Polo IT Chaco, la UTN-FRRe y la UNCAUS, creado para que chaqueñas y chaqueños tengan más y mejores oportunidades de incorporarse a la economía del conocimiento, especíﬁcamente en el sector de Software y Servicios Informáticos a través de la formación en programación. Para realizarlo es requisito haber aprobado la etapa 1 del Informatorio: el curso de "Introducción a la Programación".',
-          ],
-          imgUrl: 'ProgramayDesarrolloWeb',
-          requerimientos: 
-          [
-            `Para realizarlo es requisito haber aprobado la etapa 1 del Informatorio: el curso de "Introducción a la Programación".`
-          ],
-          especificaciones: 
-          [
-            '4 MESES DE DURACIÓN',
-            '10 HORAS SEMANALES',
-            'GRATUITO', 
-            'CERTIFICADO'
-          ],
-          contenidoTitulo: [
-            `Programación Web`,
-            `Bases de Datos`
-          ],
-          contenido: 
-          [
-            'Introducción a Python. Variables y tipos de datos. Estructuras de control. Funciones. Listas. Tuplas. Diccionarios. Programación orientada a objetos. Versionado. Framework Django.',
-            'Introducción a las bases de datos. Modelo entidad-relación (MER). Tablas. SQL Server. MySQL. Ejemplificaciones y prácticas.',
-          ],
-          UrlToRedirect: 'https://capacitaciones.chaco.gob.ar/mod/forum/view.php?id=715',
-          horasSemanales: 10,
-          fechaInscrpcion: []
-        },
-        {
-          tipo: 'Eje',
-          nombre: 'Introducción a la Programación',
-          descripcionLarga:[
-            'En este curso conocerás de qué se trata el mundo de la programación y te iniciarás en sus lenguajes. Durante un mes te proporcionaremos las bases mínimas necesarias para tener una primera noción de  las implicancias del desarrollo de software y sus principales componentes. Este curso es la etapa de 1 del trayecto formativo del "Informatorio", un programa del Gobierno del Chaco junto a empresas del Polo IT Chaco, la UTN-FRRe y la UNCAUS, creado para que chaqueñas y chaqueños tengan más y mejores oportunidades de incorporarse a la economía del conocimiento, especíﬁcamente en el sector de Software y Servicios Informáticos a través de la formación en programación. Para este curso necesitarás un dispositivo con acceso a internet, y no se requieren conocimientos previos.',
-          ],
-          imgUrl: 'IntroducciónalaProgramación',
-          requerimientos: 
-          [
-            `Un dispositivo con acceso a internet, y no se requieren conocimientos previos.`
-          ],
-          especificaciones: 
-          [
-            '4 SEMANAS DE DURACIÓN',
-            '12 HORAS SEMANALES',
-            'GRATUITO', 'CERTIFICADO'
-          ],
-          contenidoTitulo: [
-            `Fundamentos de Programación`,
-            `Programación Imperativa`
-          ],
-          contenido: 
-          [
-            'Conceptos iniciales. Primeros programas. Procedimientos y prácticas. Estructuras repetitivas simples. Expresiones. Estructuras condicionales. Funciones. Prácticas integradoras. Estructuras repetitivas condicionales.',
-            'Funciones y tipos de datos. Variables y procedimientos. Lógica Booleana. Listas. Registros.',
-          ],
-          UrlToRedirect: 'https://capacitaciones.chaco.gob.ar/mod/forum/view.php?id=714',
-          horasSemanales: 12,
-          fechaInscrpcion: []
-        }
+        especificaciones: [],
+        contenidoTitulo: [],
+        contenido: [],
+        UrlToRedirect: 'https://capacitaciones.chaco.gob.ar/mod/forum/view.php?id=717',
+        horasSemanales: 0,
+        fechaInscrpcion: []
+      },  
     ]
   }, 
   /** ----------- UniMOOC ------------ */

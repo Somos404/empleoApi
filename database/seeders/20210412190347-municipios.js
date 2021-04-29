@@ -19,6 +19,7 @@ module.exports = {
           UrlToRedirect: curso.UrlToRedirect,
           tipo: curso.tipo,
 
+          descrip_card: curso.descrip_card,
           descripcionLarga: curso.descripcionLarga,
           requerimientos: curso.requerimientos,
           especificaciones: curso.especificaciones,

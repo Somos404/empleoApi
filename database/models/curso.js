@@ -19,6 +19,7 @@ module.exports = (sequelize, DataTypes) => {
     imgUrl: DataTypes.STRING,
     horasSemanales: DataTypes.INTEGER,
     UrlToRedirect: DataTypes.STRING,
+    descrip_card: DataTypes.TEXT,
     tipo: DataTypes.STRING,
     descripcionLarga: {
       type: DataTypes.TEXT,

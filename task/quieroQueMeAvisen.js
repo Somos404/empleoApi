@@ -92,7 +92,7 @@ const checkInscripcionesCursos = async () => {
                                                             >
                                                                 <a 
                                                                     style="text-decoration: none; border-radius: 5px; padding: 11px 23px; color: white; background-color: #3498db" 
-                                                                    href="https://empleo.chaco.gob.ar/curso/${list.categoria.replace(/([a-z])([A-Z])/g, "$1-$2").replace(/\s+/g, '-').replace(/\?/g, '').replace(/\¿/g, '')}/${e.dataValues.nombreCurso.replace(/([a-z])([A-Z])/g, "$1-$2").replace(/\s+/g, '-').replace(/\?/g, '').replace(/\¿/g, '')}"
+                                                                    href="https://empleo.chaco.gob.ar/capacitaciones/${e.dataValues.nombreCurso.replace(/([a-z])([A-Z])/g, "$1-$2").replace(/\s+/g, '-').replace(/\?/g, '').replace(/\¿/g, '')}"
                                                                 >
                                                                     Ir al Curso
                                                                 </a>
