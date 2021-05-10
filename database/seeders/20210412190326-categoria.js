@@ -4,21 +4,28 @@ module.exports = {
   up: async (queryInterface, Sequelize) => {
     return queryInterface.bulkInsert('Categoria', [
       {
-        categoria: 'Empleo y emprendimientos',
+        categoria: 'Empleo',
         imgUrl: 'EmpleoyEmprendimientos',
         active: true,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        categoria: 'Informatorio',
-        imgUrl: 'Informatorio',
+        categoria: 'Emprendimientos',
+        imgUrl: 'EmpleoyEmprendimientos',
         active: true,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        categoria: 'UniMOOC',
+        categoria: 'Economía del Conocimiento',
+        imgUrl: 'UniMOOC',
+        active: true,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        categoria: 'Informatorio',
         imgUrl: 'UniMOOC',
         active: true,
         createdAt: new Date(),
