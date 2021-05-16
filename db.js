@@ -3,7 +3,8 @@ const {
     Categoria,
     Curso,
     InscripcionesCursos,
-    Municipios
+    Municipios,
+    Sliders
     
 } = sequelize.models
 
@@ -16,5 +17,6 @@ module.exports = {
     Categoria,
     Curso,
     InscripcionesCursos,
-    Municipios
+    Municipios,
+    Sliders
 }

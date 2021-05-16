@@ -6,7 +6,7 @@ const { Requerimientos } = require('../../db')
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    for (const list of muni) {
+    /* for (const list of muni) {
 
         await Municipios.create({
           active: true,
@@ -14,7 +14,7 @@ module.exports = {
           descripcion: list.descripcion,
           img: list.img,
         })
-      }
+    } */
   },
 
   down: async (queryInterface, Sequelize) => {

@@ -6,7 +6,7 @@ const { Requerimientos } = require('../../db')
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    for (const list of cursos) {
+   /*  for (const list of cursos) {
       for (const curso of list.cursos) {
         //CategoriumId clave foraanea
 
@@ -42,7 +42,7 @@ module.exports = {
         await cur.addCategoria(categ, { through: { selfGranted: false } });
       }
       
-    }
+    } */
   },
 
   down: async (queryInterface, Sequelize) => {
