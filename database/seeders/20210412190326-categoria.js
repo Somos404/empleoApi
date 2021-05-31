@@ -2,7 +2,7 @@
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-   /*  return queryInterface.bulkInsert('Categoria', [
+    return queryInterface.bulkInsert('Categoria', [
       {
         categoria: 'Empleo',
         imgUrl: 'EmpleoyEmprendimientos',
@@ -31,7 +31,7 @@ module.exports = {
         createdAt: new Date(),
         updatedAt: new Date()
       }
-    ]); */
+    ]);
   },
 
   down: async (queryInterface, Sequelize) => {

@@ -18,6 +18,7 @@ module.exports = (sequelize, DataTypes) => {
     active: DataTypes.BOOLEAN,
     nombre: DataTypes.STRING,
     imgUrl: DataTypes.STRING,
+    imgSliderUrl: DataTypes.STRING,
     horasSemanales: DataTypes.INTEGER,
     UrlToRedirect: DataTypes.STRING,
     descrip_card: DataTypes.TEXT,
