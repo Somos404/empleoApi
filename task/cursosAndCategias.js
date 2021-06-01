@@ -38,7 +38,7 @@ module.exports = [
           "En este curso te vamos a mostrar las cuestiones más importantes para que puedas escribir en la computadora notas, cartas, informes, tu currículum vitae, entre otros. Durante dos semanas te iremos mostrando las funcionalidades básicas de Word, aprendiendo a trabajar con él y entendiendo su navegación. Vas a incorporar nociones básicas sobre cómo crear, modificar, configurar y corregir un documento, para tenerlo listo y compartir el trabajo finalizado por medios electrónicos, imprimirlo o simplemente guardarlo.",
         ],
         imgUrl: "WOrdInicial",
-        imgSliderUrl: "SliderWOrdInicial",
+        imgSliderUrl: "word",
         requerimientos: [
           "Tener acceso a una computadora con el programa Microsoft Word instalado.",
         ],
@@ -59,8 +59,13 @@ module.exports = [
         ],
         UrlToRedirect:
           "https://capacitaciones.chaco.gob.ar/course/view.php?id=9",
-        horasSemanales: 3,
-        fechaInscrpcion: [],
+        active: true,
+        fechaInscrpcion: [
+          {
+            empieza: "30/05/2021",
+            termina: "25/02/2022",
+          },
+        ],
       },
       {
         tipo: "Semana",
@@ -187,7 +192,7 @@ module.exports = [
           `En este curso aprenderás a generar y editar contenido audiovisual con tu celular mediante la aplicación "YouCut", para compartir tu emprendimiento con seguidores, clientes actuales y potenciales. Te servirá para generar contenido audiovisual que contribuya al posicionamiento de tu marca y la promoción de tus productos.`,
         ],
         imgUrl: "EdicionDeVideosParaEmmprendimientos",
-        imgSliderUrl: "SliderEdicionDeVideosParaEmmprendimientos",
+        imgSliderUrl: "fornaliizacionemprendimentos",
         requerimientos: [
           "1. Dispositivo con acceso a internet.",
           "2. Celular con la aplicación YouCut instalada.",
@@ -209,7 +214,13 @@ module.exports = [
         UrlToRedirect:
           "https://capacitaciones.chaco.gob.ar/course/view.php?id=21",
         horasSemanales: 4,
-        fechaInscrpcion: [],
+        active: true,
+        fechaInscrpcion: [
+          {
+            empieza: "30/05/2021",
+            termina: "25/02/2022",
+          },
+        ],
       },
       {
         tipo: "Semana",
@@ -244,7 +255,7 @@ module.exports = [
       {
         tipo: "Semana",
         nombre: "Gestión de redes sociales para emprendimientos",
-        imgUrl: "GestiónDeRedesSociales",
+        imgUrl: "GestionDeRedesSociales",
         descripcionLarga: [
           "En este curso aprenderás a utilizar las redes sociales para promocionar tu emprendimiento, planificando y gestionando estrategias de comunicación, de acuerdo a las características de tu proyecto y a las posibilidades que ofrece cada red social.",
         ],
@@ -270,16 +281,7 @@ module.exports = [
         UrlToRedirect:
           "https://capacitaciones.chaco.gob.ar/course/view.php?id=28",
         horasSemanales: 3,
-        fechaInscrpcion: [
-          {
-            empieza: "01/01/2021",
-            termina: "10/02/2021",
-          },
-          {
-            empieza: "01/01/2021",
-            termina: "30/02/2021",
-          },
-        ],
+        fechaInscrpcion: [],
       },
       {
         tipo: "Semana",
@@ -319,7 +321,7 @@ module.exports = [
           "En cuatro semanas vamos a compartir herramientas, saberes y sugerencias para favorecer tu inserción laboral. Abordaremos aquellos aspectos que son importantes a la hora de buscar trabajo, y profundizaremos en cuestiones que son valiosas al momento de acceder a un empleo.",
         ],
         imgUrl: "HerramienttasParaElEmpleo",
-        imgSliderUrl: "SliderHerramienttasParaElEmpleo",
+        imgSliderUrl: "herramientraparaelelmpleo",
         requerimientos: ["Un dispositivo con acceso a internet."],
         especificaciones: [
           "4 SEMANAS DE DURACIÓN",
@@ -337,7 +339,13 @@ module.exports = [
         UrlToRedirect:
           "https://capacitaciones.chaco.gob.ar/course/view.php?id=16",
         horasSemanales: 3,
-        fechaInscrpcion: [],
+        active: true,
+        fechaInscrpcion: [
+          {
+            empieza: "30/05/2021",
+            termina: "25/02/2022",
+          },
+        ],
       },
       {
         nombre: "Big Data para aplicaciones de negocios",
@@ -376,7 +384,8 @@ module.exports = [
           `En este curso conocerás las ventajas y desventajas del teletrabajo, las mejores estrategias para coordinar equipos deslocalizados, cómo implantarlo y consejos para mantener o aumentar la productividad. Aprenderás las mejores técnicas y aplicaciones para trabajar en remoto o con equipos formados por miembros deslocalizados. `,
         ],
         imgUrl: "TRabajoDeslocalizadoYGestionDeTareasEnEquiposREmotos",
-        imgSliderUrl: "SliderTRabajoDeslocalizadoYGestionDeTareasEnEquiposREmotos",
+        imgSliderUrl:
+          "SliderTRabajoDeslocalizadoYGestionDeTareasEnEquiposREmotos",
         requerimientos: [],
         especificaciones: [],
         tipo: "Módulo",
@@ -393,12 +402,7 @@ module.exports = [
         UrlToRedirect:
           "https://capacitaciones.chaco.gob.ar/enrol/index.php?id=52",
         horasSemanales: 0,
-        fechaInscrpcion: [
-          {
-            empieza: "",
-            termina: ``,
-          },
-        ],
+        fechaInscrpcion: [],
       },
       {
         tipo: "Eje",
@@ -408,7 +412,7 @@ module.exports = [
         descripcionLarga: [
           'En este curso conocerás de qué se trata el mundo de la programación y te iniciarás en sus lenguajes. Durante un mes te proporcionaremos las bases mínimas necesarias para tener una primera noción de  las implicancias del desarrollo de software y sus principales componentes. Este curso es la etapa de 1 del trayecto formativo del "Informatorio", un programa del Gobierno del Chaco junto a empresas del Polo IT Chaco, la UTN-FRRe y la UNCAUS, creado para que chaqueñas y chaqueños tengan más y mejores oportunidades de incorporarse a la economía del conocimiento, especíﬁcamente en el sector de Software y Servicios Informáticos a través de la formación en programación. Para este curso necesitarás un dispositivo con acceso a internet, y no se requieren conocimientos previos.',
         ],
-        imgUrl: "IntroducciónalaProgramación",
+        imgUrl: "IntroduccionalaProgramacion",
         imgSliderUrl: "SliderIntroducciónalaProgramación",
         requerimientos: [
           `Un dispositivo con acceso a internet, y no se requieren conocimientos previos.`,
@@ -469,7 +473,7 @@ module.exports = [
         descripcionLarga: [
           'Podrás continuar con tu perfeccionamiento en lenguajes especíﬁcos, y orientar tu formación hacia los perﬁles laborales requeridos por las empresas locales. Profundizarás en desarrollo web con JAVA, y podrás elegir entre herramientas de testing para desarrollos o front end con React JS. Este curso es la etapa de 3 del trayecto formativo del "Informatorio", un programa del Gobierno del Chaco junto a empresas del Polo IT Chaco, la UTN-FRRe y la UNCAUS, creado para que chaqueñas y chaqueños tengan más y mejores oportunidades de incorporarse a la economía del conocimiento, especíﬁcamente en el sector de Software y Servicios Informáticos a través de la formación en programación. Para realizarlo es requisito haber aprobado la etapa 2 del Informatorio: el curso de "Programación y Desarrollo Web".',
         ],
-        imgUrl: "Especializaciónentecnologíasdedesarrollo",
+        imgUrl: "Especializacionentecnologiasdedesarrollo",
         imgSliderUrl: "SliderEspecializaciónentecnologíasdedesarrollo",
         requerimientos: [
           `haber aprobado la etapa 2 del Informatorio: el curso de "Programación y Desarrollo Web".`,
@@ -751,16 +755,7 @@ module.exports = [
         UrlToRedirect:
           "https://capacitaciones.chaco.gob.ar/course/view.php?id=28",
         horasSemanales: 3,
-        fechaInscrpcion: [
-          {
-            empieza: "01/01/2021",
-            termina: "10/02/2021",
-          },
-          {
-            empieza: "01/01/2021",
-            termina: "30/02/2021",
-          },
-        ],
+        fechaInscrpcion: [],
       },
       {
         tipo: "Semana",
@@ -768,7 +763,7 @@ module.exports = [
         descripcionLarga: [
           "En este curso te brindaremos los conocimientos necesarios para administrar un emprendimiento de manera económica y financieramente sostenible, con información clara de costos y márgenes de rentabilidad, la aplicación de conceptos claves y el uso de herramientas simples y prácticas que te permitan tomar decisiones fundadas para hacer crecer un emprendimiento.",
         ],
-        imgUrl: "Administracióndeemprendimientos",
+        imgUrl: "Administraciondeemprendimientos",
         imgSliderUrl: "SliderAdministracióndeemprendimientos",
         requerimientos: [
           "1. Dispositivo con acceso a internet.",
@@ -953,7 +948,8 @@ module.exports = [
           `En este curso conocerás el potencial del análisis de datos para mejorar las decisiones de tu negocio y generar tu estrategia empresarial. Aprenderás la importancia de implantar Cuadros de Mando Integral, control de indicadores y análisis de información aplicados a las empresas.`,
         ],
         imgUrl: "ElBusinessInteligencePAraControlarLaEStrategiaEmpresarial",
-        imgSliderUrl: "SliderElBusinessInteligencePAraControlarLaEStrategiaEmpresarial",
+        imgSliderUrl:
+          "SliderElBusinessInteligencePAraControlarLaEStrategiaEmpresarial",
         requerimientos: [],
         especificaciones: [],
         tipo: "Módulo",
@@ -970,12 +966,7 @@ module.exports = [
         UrlToRedirect:
           "https://capacitaciones.chaco.gob.ar/enrol/index.php?id=50",
         horasSemanales: 3,
-        fechaInscrpcion: [
-          {
-            empieza: "",
-            termina: ``,
-          },
-        ],
+        fechaInscrpcion: [],
       },
       {
         nombre: "Economía del conocimiento y el sector turístico",
@@ -1006,7 +997,8 @@ module.exports = [
           `En este curso conocerás las ventajas y desventajas del teletrabajo, las mejores estrategias para coordinar equipos deslocalizados, cómo implantarlo y consejos para mantener o aumentar la productividad. Aprenderás las mejores técnicas y aplicaciones para trabajar en remoto o con equipos formados por miembros deslocalizados. `,
         ],
         imgUrl: "TRabajoDeslocalizadoYGestionDeTareasEnEquiposREmotos",
-        imgSliderUrl: "SliderTRabajoDeslocalizadoYGestionDeTareasEnEquiposREmotos",
+        imgSliderUrl:
+          "SliderTRabajoDeslocalizadoYGestionDeTareasEnEquiposREmotos",
         requerimientos: [],
         especificaciones: [],
         tipo: "Módulo",
@@ -1023,12 +1015,7 @@ module.exports = [
         UrlToRedirect:
           "https://capacitaciones.chaco.gob.ar/enrol/index.php?id=52",
         horasSemanales: 0,
-        fechaInscrpcion: [
-          {
-            empieza: "",
-            termina: ``,
-          },
-        ],
+        fechaInscrpcion: [],
       },
       {
         nombre:
@@ -1166,7 +1153,8 @@ module.exports = [
           `En este curso aprenderás la importancia de conocer al público objetivo para una mejor planificación de la estrategia, los factores a tener en cuenta para la elaboración de un perfil de usuario y las principales herramientas existentes para conseguir información del usuario y de nuestra competencia.`,
         ],
         imgUrl: "HerramientasPAraAlanizarALaCompetenciaYATuPublicoObjetivo",
-        imgSliderUrl: "SliderHerramientasPAraAlanizarALaCompetenciaYATuPublicoObjetivo",
+        imgSliderUrl:
+          "SliderHerramientasPAraAlanizarALaCompetenciaYATuPublicoObjetivo",
         requerimientos: [],
         especificaciones: [],
         tipo: "Módulo",
@@ -1237,8 +1225,8 @@ module.exports = [
         descripcionLarga: [
           "¿Querés inscribir tu emprendimiento ante los organismos correspondientes, y también aprender cómo efectivizar liquidaciones y pagos mensuales? En dos semanas conocerás  herramientas, aplicativos, sugerencias y recomendaciones  para formalizar tu emprendimiento ante los organismos de recaudación impositiva, tanto Nacionales como provinciales.",
         ],
-        imgUrl: "FormalizaciónDeEmprendimientos",
-        imgSliderUrl: "SliderFormalizaciónDeEmprendimientos",
+        imgUrl: "FormalizacionDeEmprendimientos",
+        imgSliderUrl: "fornaliizacionemprendimentos",
         requerimientos: [],
         especificaciones: [
           "2 SEMANAS DE DURACIÓN",
@@ -1254,7 +1242,13 @@ module.exports = [
         UrlToRedirect:
           "https://capacitaciones.chaco.gob.ar/course/view.php?id=27",
         horasSemanales: 3,
-        fechaInscrpcion: [],
+        active: true,
+        fechaInscrpcion: [
+          {
+            empieza: "30/05/2021",
+            termina: "25/02/2022",
+          },
+        ],
       },
     ],
   },
@@ -1414,7 +1408,8 @@ module.exports = [
           `En este curso conocerás el potencial del análisis de datos para mejorar las decisiones de tu negocio y generar tu estrategia empresarial. Aprenderás la importancia de implantar Cuadros de Mando Integral, control de indicadores y análisis de información aplicados a las empresas.`,
         ],
         imgUrl: "ElBusinessInteligencePAraControlarLaEStrategiaEmpresarial",
-        imgSliderUrl: "SliderElBusinessInteligencePAraControlarLaEStrategiaEmpresarial",
+        imgSliderUrl:
+          "SliderElBusinessInteligencePAraControlarLaEStrategiaEmpresarial",
         requerimientos: [],
         especificaciones: [],
         tipo: "Módulo",
@@ -1431,12 +1426,7 @@ module.exports = [
         UrlToRedirect:
           "https://capacitaciones.chaco.gob.ar/enrol/index.php?id=50",
         horasSemanales: 3,
-        fechaInscrpcion: [
-          {
-            empieza: "",
-            termina: ``,
-          },
-        ],
+        fechaInscrpcion: [],
       },
       {
         nombre: "Economía del conocimiento y el sector turístico",
@@ -1467,7 +1457,8 @@ module.exports = [
           `En este curso conocerás las ventajas y desventajas del teletrabajo, las mejores estrategias para coordinar equipos deslocalizados, cómo implantarlo y consejos para mantener o aumentar la productividad. Aprenderás las mejores técnicas y aplicaciones para trabajar en remoto o con equipos formados por miembros deslocalizados. `,
         ],
         imgUrl: "TRabajoDeslocalizadoYGestionDeTareasEnEquiposREmotos",
-        imgSliderUrl: "SliderTRabajoDeslocalizadoYGestionDeTareasEnEquiposREmotos",
+        imgSliderUrl:
+          "SliderTRabajoDeslocalizadoYGestionDeTareasEnEquiposREmotos",
         requerimientos: [],
         especificaciones: [],
         tipo: "Módulo",
@@ -1484,12 +1475,7 @@ module.exports = [
         UrlToRedirect:
           "https://capacitaciones.chaco.gob.ar/enrol/index.php?id=52",
         horasSemanales: 0,
-        fechaInscrpcion: [
-          {
-            empieza: "",
-            termina: ``,
-          },
-        ],
+        fechaInscrpcion: [],
       },
       {
         nombre: "Machine Learning: ¿Qué es y cómo funciona?",
@@ -1676,7 +1662,7 @@ module.exports = [
         descripcionLarga: [
           `Conocé Blockchain, la tecnología detrás de Bitcoin. En este curso descubrirás de una forma rápida y sencilla cómo funciona Blockchain y qué usos tiene además del aplicado a las criptomonedas.`,
         ],
-        imgUrl: "BlockchainlainnovacióndisruptivadetrásdeBitcoin",
+        imgUrl: "BlockchainlainnovaciondisruptivadetrasdeBitcoin",
         imgSliderUrl: "SliderBlockchainlainnovacióndisruptivadetrásdeBitcoin",
         requerimientos: [],
         especificaciones: ["1 SEMANAS DE DURACIÓN"],
@@ -1764,7 +1750,7 @@ module.exports = [
         descripcionLarga: [
           'Podrás continuar con tu perfeccionamiento en lenguajes especíﬁcos, y orientar tu formación hacia los perﬁles laborales requeridos por las empresas locales. Profundizarás en desarrollo web con JAVA, y podrás elegir entre herramientas de testing para desarrollos o front end con React JS. Este curso es la etapa de 3 del trayecto formativo del "Informatorio", un programa del Gobierno del Chaco junto a empresas del Polo IT Chaco, la UTN-FRRe y la UNCAUS, creado para que chaqueñas y chaqueños tengan más y mejores oportunidades de incorporarse a la economía del conocimiento, especíﬁcamente en el sector de Software y Servicios Informáticos a través de la formación en programación. Para realizarlo es requisito haber aprobado la etapa 2 del Informatorio: el curso de "Programación y Desarrollo Web".',
         ],
-        imgUrl: "Especializaciónentecnologíasdedesarrollo",
+        imgUrl: "Especializacionentecnologiasdedesarrollo",
         imgSliderUrl: "SliderEspecializaciónentecnologíasdedesarrollo",
         requerimientos: [
           `haber aprobado la etapa 2 del Informatorio: el curso de "Programación y Desarrollo Web".`,

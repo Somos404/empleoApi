@@ -1,8 +1,8 @@
-'use strict';
-const cursos = require('./../../task/cursosAndCategias')
-const { Curso, Categoria } = require('../../db')
-const { DescripcionLarga } = require('../../db')
-const { Requerimientos } = require('../../db')
+"use strict";
+const cursos = require("./../../task/cursosAndCategias");
+const { Curso, Categoria } = require("../../db");
+const { DescripcionLarga } = require("../../db");
+const { Requerimientos } = require("../../db");
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
@@ -12,18 +12,18 @@ module.exports = {
 
         let categ = await Categoria.findAll({
           where: {
-            categoria: list.categoria
-          }
+            categoria: list.categoria,
+          },
         });
-            
+
         let cur = await Curso.findOne({
           where: {
-            nombre: curso.nombre
-          }
-        })
-        if(!cur){
+            nombre: curso.nombre,
+          },
+        });
+        if (!cur) {
           cur = await Curso.create({
-            active: false,
+            active: curso.active ? curso.active : false,
             nombre: curso.nombre,
             imgUrl: curso.imgUrl,
             imgSliderUrl: curso.imgSliderUrl,
@@ -37,12 +37,10 @@ module.exports = {
             contenidoTitulo: curso.contenidoTitulo,
             contenido: curso.contenido,
             fechaInscrpcion: curso.fechaInscrpcion,
-            
-          })
+          });
         }
         await cur.addCategoria(categ, { through: { selfGranted: false } });
       }
-      
     }
   },
 
@@ -53,5 +51,5 @@ module.exports = {
      * Example:
      * await queryInterface.bulkDelete('People', null, {});
      */
-  }
+  },
 };
